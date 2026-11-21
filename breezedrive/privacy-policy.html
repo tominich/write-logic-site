@@ -1,0 +1,163 @@
+<title>Breeze Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+  /* Layout: a single readable column; a "where your data goes" table up top, then the detail per app. */
+  :root {
+    --bg: #f6f9fb;
+    --surface: #ffffff;
+    --ink: #17242d;
+    --muted: #55687a;
+    --line: #d6e1e8;
+    --accent: #1d6f9e;
+    --chip: #e3f0f7;
+    --display: "Manrope", "Segoe UI", system-ui, sans-serif;
+    --body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1820; --surface: #16222c; --ink: #e4edf2; --muted: #9db1bf;
+      --line: #2a3a46; --accent: #6cb8e2; --chip: #1c3242; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1820; --surface: #16222c; --ink: #e4edf2; --muted: #9db1bf;
+    --line: #2a3a46; --accent: #6cb8e2; --chip: #1c3242; color-scheme: dark;
+  }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: var(--body); font-size: 1.0625rem; line-height: 1.6;
+  }
+  .page {
+    max-width: 44rem; margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 3rem 4rem;
+    display: grid; gap: 2.25rem;
+  }
+  header { display: grid; gap: .6rem; }
+  .apps { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .chip {
+    font-family: var(--display); font-weight: 700; font-size: .8rem; letter-spacing: .04em;
+    text-transform: uppercase; color: var(--accent); background: var(--chip);
+    padding: .25rem .65rem; border-radius: 999px;
+  }
+  h1, h2, h3 { font-family: var(--display); text-wrap: balance; line-height: 1.2; margin: 0; }
+  h1 { font-size: clamp(2rem, 6vw, 2.75rem); font-weight: 800; letter-spacing: -.02em; }
+  h2 { font-size: 1.4rem; font-weight: 700; }
+  h3 { font-size: 1.08rem; font-weight: 700; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2rem; display: grid; gap: .4rem; }
+  .lede { font-size: 1.2rem; color: var(--ink); }
+  .meta { color: var(--muted); font-size: .95rem; }
+  section { display: grid; gap: .9rem; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .summary { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1.25rem; display: grid; gap: .8rem; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .98rem; min-width: 32rem; }
+  th, td { text-align: left; vertical-align: top; padding: .6rem .7rem .6rem 0; border-bottom: 1px solid var(--line); }
+  th { font-family: var(--display); font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .only { font-size: .78rem; font-family: var(--display); font-weight: 700; color: var(--muted); letter-spacing: .03em; }
+  .contact { font-family: var(--display); font-weight: 700; font-size: 1.1rem; user-select: all; }
+  footer { color: var(--muted); font-size: .92rem; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+</style>
+
+<main class="page">
+  <header>
+    <div class="apps"><span class="chip">Breeze Day</span><span class="chip">Breeze Drive</span></div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 21 November 2026</p>
+    <p class="lede">Breeze Day and Breeze Drive have no accounts, no analytics, no advertising and no servers of their own. Your information stays on your iPhone, apart from the requests described below that the apps need to work.</p>
+  </header>
+
+  <section class="summary" aria-labelledby="glance">
+    <h2 id="glance">Where your data goes</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>What</th><th>Sent to</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td>The map area around you</td><td>OpenStreetMap data servers (Overpass)</td><td>To download School Streets, bus gates, charging zones and speed cameras for that area</td></tr>
+          <tr><td>Searches near you</td><td>Apple Maps</td><td>To show maps and find car parks</td></tr>
+          <tr><td>Your approximate location <span class="only">(Breeze Day)</span></td><td>Open-Meteo</td><td>For the weather and air quality forecast, rounded to about 100 metres</td></tr>
+          <tr><td>Stations you choose <span class="only">(Breeze Day)</span></td><td>Transport for London</td><td>For train times and service status</td></tr>
+          <tr><td>Playback commands <span class="only">(Breeze Day, if you connect Spotify)</span></td><td>Spotify</td><td>To start or resume your music</td></tr>
+          <tr><td>Subscription status</td><td>Your own iCloud account</td><td>So a subscription in one app unlocks the other on all your devices</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>None of these requests include your name, email address or any account identifier from us. We never sell or share your information, and we don't track you across other apps or websites.</p>
+  </section>
+
+  <section aria-labelledby="device">
+    <h2 id="device">What stays on your iPhone</h2>
+    <ul>
+      <li><strong>Location while driving.</strong> Used to warn you about restricted roads, charging zones and speed cameras ahead, and to remember where you parked. The route you drive is not recorded or sent anywhere.</li>
+      <li><strong>Motion activity.</strong> Used to notice when you start and stop driving.</li>
+      <li><strong>Camera.</strong> Photos of parking signs are read on your phone with Apple's built-in text recognition, then discarded. They are not saved or uploaded.</li>
+      <li><strong>Your parked car, settings, saved roads and term dates.</strong> Stored in the app on your phone.</li>
+      <li><strong>Spoken warnings, alarms and notifications.</strong> Created on your phone.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="day">
+    <h2 id="day">Breeze Day only</h2>
+    <ul>
+      <li><strong>Health.</strong> If you allow it, Breeze Day reads your workouts (including energy and heart rate) for post-ride and recovery reminders, and saves walks and rides you start in the app. Health data never leaves your phone and is never used for advertising.</li>
+      <li><strong>Reminders.</strong> If you allow it, Breeze Day adds reminders to your Reminders app that go off when you arrive at a place.</li>
+      <li><strong>Home and work locations.</strong> Stored on your phone and used by iOS to notice when you leave or arrive.</li>
+      <li><strong>Apple Music.</strong> If you allow it, Breeze Day plays your chosen playlist on your phone.</li>
+      <li><strong>Spotify.</strong> Optional. If you connect your Spotify account, the sign-in token is kept in your phone's Keychain and used only to control playback.</li>
+      <li><strong>MunchSafe.</strong> When you check a food label, the photo is passed to the MunchSafe app on your phone, not to a server of ours.</li>
+      <li><strong>Widget.</strong> The home and lock screen widget reads from a shared area on your phone.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="purchases">
+    <h2 id="purchases">Subscriptions</h2>
+    <p>Breeze Day Pro and Breeze Drive Pro are sold through the App Store. Apple handles payment, and we never see your payment details. Each app saves a small record of an active subscription (the product, its expiry date and Apple's transaction number) on your phone and in your iCloud key-value storage, so that either subscription unlocks both apps. You can manage or cancel subscriptions in your Apple Account settings.</p>
+  </section>
+
+  <section aria-labelledby="others">
+    <h2 id="others">Other services</h2>
+    <p>When the apps contact the services listed above, those services receive your request and your device's internet address, as with any website. Their own privacy policies apply:</p>
+    <ul>
+      <li><a href="https://www.apple.com/legal/privacy/">Apple</a> (Maps, iCloud, App Store)</li>
+      <li><a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation</a> and the public Overpass servers</li>
+      <li><a href="https://open-meteo.com/en/terms">Open-Meteo</a></li>
+      <li><a href="https://tfl.gov.uk/corporate/privacy-and-cookies/">Transport for London</a></li>
+      <li><a href="https://www.spotify.com/uk/legal/privacy-policy/">Spotify</a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="choices">
+    <h2 id="choices">Your choices and your rights</h2>
+    <ul>
+      <li>You can turn off location, motion, camera, Health, Reminders and Music access at any time in the iPhone Settings app. Features that need them will stop working.</li>
+      <li>Deleting an app removes its data from your phone. The subscription record in iCloud can be removed in Settings → your name → iCloud → Manage Storage.</li>
+      <li>Because we don't hold any personal data on our own systems, there is nothing we can access, correct or delete on your behalf. If you have a question about your rights under UK data protection law, contact us below.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="children">
+    <h2 id="children">Children</h2>
+    <p>The apps are not directed at children and don't knowingly collect information from anyone.</p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">Changes to this policy</h2>
+    <p>If the apps start handling data differently, this page will be updated and the effective date above will change.</p>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">Contact</h2>
+    <p>Questions about privacy in Breeze Day or Breeze Drive:</p>
+    <p class="contact">tom@writelogic.co.uk</p>
+  </section>
+
+  <footer>Breeze Day and Breeze Drive use map data © OpenStreetMap contributors, available under the Open Database Licence.</footer>
+</main>
